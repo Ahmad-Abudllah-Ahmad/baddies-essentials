@@ -10,8 +10,6 @@ node_modules/
 .next/
 out/
 build/
-.env
-.env*
 
 
 # Production
@@ -41,7 +39,6 @@ yarn-error.log*
 next-env.d.ts
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -108,3 +105,4 @@ dist
 # Temporary folders
 tmp/
 temp/
+config.bat
