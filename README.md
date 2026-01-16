@@ -1,8 +1,8 @@
-# Baddies Essentials - Premier Fashion Marketplace
+# Mega Mall - Premier Fashion Marketplace
 
-![Baddies Essentials Banner](/public/og-home.jpg)
+![Mega Mall Banner](/public/og-home.jpg)
 
-Baddies Essentials is a modern, high-performance e-commerce marketplace connecting fashion enthusiasts with top brands. Built with **Next.js 13+ (App Router)**, **Tailwind CSS**, and **TypeScript**, it offers a seamless shopping experience with features like Real-time Chat, Admin Dashboards, and Seller Portals.
+Mega Mall is a modern, high-performance e-commerce marketplace connecting fashion enthusiasts with top brands. Built with **Next.js 13+ (App Router)**, **Tailwind CSS**, and **TypeScript**, it offers a seamless shopping experience with features like Real-time Chat, Admin Dashboards, and Seller Portals.
 
 ## 🚀 Features
 
@@ -171,4 +171,4 @@ graph LR
 
 ---
 
-© 2024 Baddies Essentials. All Rights Reserved.
+© 2026 Mega Mall. All Rights Reserved.

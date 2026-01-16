@@ -19,12 +19,12 @@ const Footer = dynamic(() => import('@/components/layout/Footer').then(mod => ({
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Baddies Essentials - Pakistan\'s Premier Fashion Marketplace',
-  description: 'Discover the latest fashion trends from top brands across Pakistan. Shop clothing, shoes, and accessories with fast delivery and secure payments.',
+  title: 'Mega Mall - Pakistan\'s Premier Fashion Marketplace',
+  description: 'Discover the latest fashion trends from top brands across Pakistan. Shop Mega Mall for clothing, shoes, and accessories.',
   keywords: 'fashion, clothing, shoes, accessories, Pakistan, online shopping, marketplace',
-  authors: [{ name: 'Baddies Essentials Team' }],
-  creator: 'Baddies Essentials',
-  publisher: 'Baddies Essentials',
+  authors: [{ name: 'Mega Mall Team' }],
+  creator: 'Mega Mall',
+  publisher: 'Mega Mall',
   formatDetection: {
     email: false,
     address: false,
@@ -35,21 +35,21 @@ export const metadata = {
     type: 'website',
     locale: 'en_PK',
     url: '/',
-    title: 'Baddies Essentials - Pakistan\'s Premier Fashion Marketplace',
+    title: 'Mega Mall - Pakistan\'s Premier Fashion Marketplace',
     description: 'Discover the latest fashion trends from top brands across Pakistan.',
-    siteName: 'Baddies Essentials',
+    siteName: 'Mega Mall',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Baddies Essentials',
+        alt: 'Mega Mall',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Baddies Essentials - Pakistan\'s Premier Fashion Marketplace',
+    title: 'Mega Mall - Pakistan\'s Premier Fashion Marketplace',
     description: 'Discover the latest fashion trends from top brands across Pakistan.',
     images: ['/og-image.jpg'],
   },

@@ -102,7 +102,7 @@ export function Footer() {
                 <div className="absolute inset-0 bg-violet-500 rounded-full blur group-hover:blur-md transition-all" />
                 <SparklesIcon className="relative z-10 w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold tracking-tight">Baddies<span className="text-violet-400">Essentials</span></span>
+              <span className="text-2xl font-bold tracking-tight">Mega<span className="text-violet-400">Mall</span></span>
             </Link>
             <p className="text-slate-400 leading-relaxed max-w-sm">
               {t('Pakistan\'s premier fashion hub. Experience the future of shopping with AI-powered personalized recommendations and virtual try-ons.')}
@@ -180,7 +180,7 @@ export function Footer() {
 
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm">
-            &copy; {year || '2026'} Baddies Essentials. {t('All rights reserved.')}
+            &copy; {year || '2026'} Mega Mall. {t('All rights reserved.')}
           </p>
 
           <div className="flex gap-6">

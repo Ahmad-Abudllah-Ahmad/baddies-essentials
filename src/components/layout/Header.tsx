@@ -178,7 +178,7 @@ export function Header() {
                     <SparklesIcon className="relative z-10 w-6 h-6 md:w-8 md:h-8 text-violet-600" />
                   </div>
                   <span className="hidden sm:inline font-bold text-xl md:text-2xl tracking-tighter text-slate-900">
-                    Baddies<span className="text-violet-600">Essentials</span>
+                    Mega<span className="text-violet-600">Mall</span>
                   </span>
                 </Link>
               </div>
@@ -595,7 +595,7 @@ export function Header() {
             >
               <div className="flex items-center justify-between mb-8">
                 <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
-                  <span className="text-xl font-bold text-slate-900 tracking-tight">Baddies<span className="text-violet-600">Essentials</span></span>
+                  <span className="text-xl font-bold text-slate-900 tracking-tight">Mega<span className="text-violet-600">Mall</span></span>
                 </Link>
                 <button
                   type="button"
