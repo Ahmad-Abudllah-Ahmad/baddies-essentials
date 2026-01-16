@@ -10,6 +10,9 @@ node_modules/
 .next/
 out/
 build/
+.env
+.env*
+
 
 # Production
 /build

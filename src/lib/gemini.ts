@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-const genAI = new GoogleGenerativeAI('AIzaSyDIIU5LsHVrWzeSoDpbSxyJqx9NqUX074k')
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '')
 
 export interface SearchSuggestion {
   query: string
@@ -54,13 +54,13 @@ export class GeminiSearchService {
       const result = await this.model.generateContent(prompt)
       const response = await result.response
       const text = response.text()
-      
+
       // Extract JSON from response
       const jsonMatch = text.match(/\[[\s\S]*\]/)
       if (jsonMatch) {
         return JSON.parse(jsonMatch[0])
       }
-      
+
       return []
     } catch (error) {
       console.error('Gemini API error:', error)
@@ -69,7 +69,7 @@ export class GeminiSearchService {
   }
 
   async getProductRecommendations(
-    userQuery: string, 
+    userQuery: string,
     userBudget?: number,
     preferredColors?: string[],
     preferredBrands?: string[]
@@ -108,12 +108,12 @@ export class GeminiSearchService {
       const result = await this.model.generateContent(prompt)
       const response = await result.response
       const text = response.text()
-      
+
       const jsonMatch = text.match(/\[[\s\S]*\]/)
       if (jsonMatch) {
         return JSON.parse(jsonMatch[0])
       }
-      
+
       return []
     } catch (error) {
       console.error('Gemini API error:', error)
@@ -145,12 +145,12 @@ export class GeminiSearchService {
       const result = await this.model.generateContent(prompt)
       const response = await result.response
       const text = response.text()
-      
+
       const jsonMatch = text.match(/\[[\s\S]*\]/)
       if (jsonMatch) {
         return JSON.parse(jsonMatch[0])
       }
-      
+
       return []
     } catch (error) {
       console.error('Gemini API error:', error)
